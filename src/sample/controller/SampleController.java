@@ -48,5 +48,8 @@ public class SampleController
 		System.out.println("Please type your favorite food");
 		String answer = firstScanner.nextLine();
 		System.out.println("Oh, you like to eat " + answer);
+		System.out.println("How old are you????");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("You said that you are " + ageAnswer + " years old");
 	}
 }
