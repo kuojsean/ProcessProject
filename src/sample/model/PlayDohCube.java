@@ -14,4 +14,10 @@ public class PlayDohCube
 	{
 		this.length = length;
 	}
+	
+	public String toString()
+	{
+		String description = "I am the ultimate PlayDohCube and I have a length of " + length;
+		return description;
+	}
 }

@@ -18,7 +18,7 @@ public class SampleController
 		secondCircle = new PlayDohCircle();
 		
 		PlayDohCircle thirdCircle;
-		thirdCircle = new PlayDohCircle(5);
+		thirdCircle = new PlayDohCircle(15);
 		
 		PlayDohCube firstCube = new PlayDohCube();
 		PlayDohCube secondCube;
@@ -26,6 +26,14 @@ public class SampleController
 		
 		PlayDohCube thirdCube;
 		thirdCube = new PlayDohCube(5);
+		
+		System.out.println("Here is my play doh circle");
+		System.out.println(firstCircle);
+		System.out.println("Here is my second circle " + thirdCircle);
+		
+		System.out.println("This is the play doh cube");
+		System.out.println(firstCube);
+		System.out.println("Here is another cube number two " + secondCube);
 		
 		System.out.println("This is a sample project to show the github and");
 		System.out.println("eclipse process so I develop muscle memory :D");
